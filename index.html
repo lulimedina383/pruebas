@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+
+	<title>Página de prueba </title>
+</head>
+<body>
+	<h1>Pruebas para la página real</h1>
+    <form action="send.php" method="post" enctype="text/plain" name="frmContacto">
+        <div class="app-form">
+            <div class="app-form-group">
+                <label for="Nombre">Nombre: *</label>
+                <input class="app-form-control" placeholder="Inserte su nombre" aria-required="true" type="text" name="nombre">
+            </div>
+        	<div class="app-form-group">
+                <label for="E-mail">E-mail: *</label>
+                <input class="app-form-control"  placeholder="Inserte su correo electrónico" aria-required="true" type="email" name="email">
+        	</div>
+        	<div class="app-form-group">
+                <label for="Celular">Celular: *</label>
+                <input class="app-form-control" placeholder="Inserte su celular"  name="cel">
+            </div>
+        	<div class="app-form-group message">
+                <label for="Consulta">Consulta: </label>
+                <input class="app-form-control" placeholder="Inserte su consulta"  type="text" name="consulta">
+        	</div>
+        	<div class="app-form-group buttons">
+            	<button class="app-form-button" type="reset">CANCELAR</button>
+                <button class="app-form-button" type="submit">ENVIAR</button>
+            </div>
+        </div>
+    </form>                
+</body>
+</html>
